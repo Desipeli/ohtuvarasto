@@ -73,4 +73,4 @@ class TestVarasto(unittest.TestCase):
     
     def test_negatiivinen_alku_saldo(self):
         toinen_varasto = Varasto(5, -1)
-        self.assertAlmostEqual(toinen_varasto.saldo, 0)
+        self.assertAlmostEqual(toinen_varasto.saldo, 1)
